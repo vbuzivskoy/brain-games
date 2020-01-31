@@ -1,0 +1,24 @@
+{
+  "name": "frontend-project-lvl1",
+  "version": "0.0.1",
+  "description": "Project \"Brain Games\" at hexlet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbuzivskoy/frontend-project-lvl1.git"
+  },
+  "keywords": [
+    "hexlet"
+  ],
+  "author": "Buzivskoy Vyacheslav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vbuzivskoy/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/vbuzivskoy/frontend-project-lvl1#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
