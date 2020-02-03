@@ -4,4 +4,4 @@
 
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>
 
-<img src="https://github.com/vbuzivskoy/frontend-project-lvl1/blob/master/.github/workflows/lint.yml/badge.svg" />
+[![Node CI](https://github.com/vbuzivskoy/frontend-project-lvl1/blob/master/.github/workflows/nodeci.yml/badge.svg)](https://github.com/vbuzivskoy/frontend-project-lvl1/actions)
