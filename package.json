@@ -25,5 +25,7 @@
   },
   "homepage": "https://github.com/vbuzivskoy/frontend-project-lvl1#readme",
   "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
