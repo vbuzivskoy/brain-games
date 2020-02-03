@@ -9,3 +9,6 @@ extends:
 
 rules:
   no-console: 0
+
+- name: Run ESLint
+  uses: stefanoeb/eslint-action@1.0.2
