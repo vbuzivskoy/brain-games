@@ -1,5 +1,5 @@
 #!/usr/bin/env node
+import { sayGreetings, askName, sayHello } from '../src/index.js';
 
-import askNameAndSayHello from '../src/index';
-
-askNameAndSayHello();
+sayGreetings();
+sayHello(askName());
