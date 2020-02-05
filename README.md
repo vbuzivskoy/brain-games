@@ -9,6 +9,10 @@
 
 ## Game "Checking parity"
 
+### How to install
+
+[![asciicast](https://asciinema.org/a/U91OhNRfd5rtpjjiu3P192z3K.svg)](https://asciinema.org/a/U91OhNRfd5rtpjjiu3P192z3K)
+
 ### How to play
 
 [![asciicast](https://asciinema.org/a/2PTeUuAE30Er5xQIBoB9ogDsW.svg)](https://asciinema.org/a/2PTeUuAE30Er5xQIBoB9ogDsW)
