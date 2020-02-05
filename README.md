@@ -11,4 +11,4 @@
 
 ### How to play
 
-[![asciicast](https://asciinema.org/a/KG0g50LJX6Cc3EBkIDBYKn2hj.svg)](https://asciinema.org/a/KG0g50LJX6Cc3EBkIDBYKn2hj?t=10)
+[![asciicast](https://asciinema.org/a/2PTeUuAE30Er5xQIBoB9ogDsW.svg)](https://asciinema.org/a/2PTeUuAE30Er5xQIBoB9ogDsW)
