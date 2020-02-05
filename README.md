@@ -11,4 +11,4 @@
 
 ### How to play
 
-<link rel="alternate" type="application/x-asciicast" href="/asciicasts/brain-even-play.cast">
+[![asciicast](https://asciinema.org/a/KG0g50LJX6Cc3EBkIDBYKn2hj.svg)](https://asciinema.org/a/KG0g50LJX6Cc3EBkIDBYKn2hj?t=10)
