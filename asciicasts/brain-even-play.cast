@@ -1,0 +1,374 @@
+{
+  "version": 1,
+  "width": 101,
+  "height": 55,
+  "duration": 39.527203,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.051171,
+      "\u001b]0;admin@fileserver64:~\u0007"
+    ],
+    [
+      6.9e-05,
+      "\u001b[?1034h"
+    ],
+    [
+      2.2e-05,
+      "[admin@fileserver64 ~]$ "
+    ],
+    [
+      2.943288,
+      "b"
+    ],
+    [
+      0.217389,
+      "r"
+    ],
+    [
+      0.286894,
+      "a"
+    ],
+    [
+      0.138092,
+      "i"
+    ],
+    [
+      0.14245,
+      "n"
+    ],
+    [
+      0.760884,
+      "-"
+    ],
+    [
+      0.241283,
+      "e"
+    ],
+    [
+      0.776235,
+      "ven "
+    ],
+    [
+      0.52611,
+      "\r\n"
+    ],
+    [
+      0.049123,
+      "Welcome to the Brain Games!\r\n"
+    ],
+    [
+      0.000421,
+      "Answer \"yes\" if the number is even, otherwise answer \"no\".\r\n"
+    ],
+    [
+      1.2e-05,
+      "\r\n"
+    ],
+    [
+      0.001467,
+      "May I have your name? "
+    ],
+    [
+      1.468119,
+      "S"
+    ],
+    [
+      0.191847,
+      "l"
+    ],
+    [
+      0.291882,
+      "\r\n"
+    ],
+    [
+      0.001443,
+      "Hello, Sl\r\n"
+    ],
+    [
+      0.000193,
+      "\r\n"
+    ],
+    [
+      0.000401,
+      "Question: 58\r\n"
+    ],
+    [
+      0.000173,
+      "Your answer: "
+    ],
+    [
+      2.692505,
+      "y"
+    ],
+    [
+      0.103779,
+      "e"
+    ],
+    [
+      0.205649,
+      "s"
+    ],
+    [
+      0.193505,
+      "\r\n"
+    ],
+    [
+      0.000909,
+      "Correct!\r\n"
+    ],
+    [
+      0.000215,
+      "Question: 66\r\n"
+    ],
+    [
+      0.000356,
+      "Your answer: "
+    ],
+    [
+      2.189516,
+      "y"
+    ],
+    [
+      0.079929,
+      "e"
+    ],
+    [
+      0.247453,
+      "s"
+    ],
+    [
+      1.200613,
+      "\r\n"
+    ],
+    [
+      0.000401,
+      "Correct!\r\n"
+    ],
+    [
+      0.000226,
+      "Question: 34\r\n"
+    ],
+    [
+      0.000292,
+      "Your answer: "
+    ],
+    [
+      1.246857,
+      "y"
+    ],
+    [
+      0.072424,
+      "e"
+    ],
+    [
+      0.247765,
+      "s"
+    ],
+    [
+      0.136323,
+      "\r\n"
+    ],
+    [
+      0.000497,
+      "Correct!\r\n"
+    ],
+    [
+      0.000363,
+      "Congratulations, Sl!\r\n"
+    ],
+    [
+      0.008954,
+      "\u001b]0;admin@fileserver64:~\u0007[admin@fileserver64 ~]$ "
+    ],
+    [
+      1.846117,
+      "brain-even "
+    ],
+    [
+      1.87321,
+      "\r\n"
+    ],
+    [
+      0.044334,
+      "Welcome to the Brain Games!\r\n"
+    ],
+    [
+      0.000357,
+      "Answer \"yes\" if the number is even, otherwise answer \"no\".\r\n"
+    ],
+    [
+      1.1e-05,
+      "\r\n"
+    ],
+    [
+      0.001423,
+      "May I have your name? "
+    ],
+    [
+      1.401577,
+      "S"
+    ],
+    [
+      0.222924,
+      "l"
+    ],
+    [
+      0.656911,
+      "\r\n"
+    ],
+    [
+      0.001519,
+      "Hello, Sl\r\n"
+    ],
+    [
+      0.000217,
+      "\r\n"
+    ],
+    [
+      0.000447,
+      "Question: 23\r\n"
+    ],
+    [
+      0.000362,
+      "Your answer: "
+    ],
+    [
+      2.436848,
+      "y"
+    ],
+    [
+      0.088463,
+      "e"
+    ],
+    [
+      0.22355,
+      "s"
+    ],
+    [
+      0.311888,
+      "\r\n"
+    ],
+    [
+      0.004962,
+      "'yes' is wrong answer ;(. Correct answer was 'no'.\r\nLet's try again, Sl!\r\n"
+    ],
+    [
+      0.001547,
+      "\u001b]0;admin@fileserver64:~\u0007[admin@fileserver64 ~]$ "
+    ],
+    [
+      1.105759,
+      "brain-even "
+    ],
+    [
+      1.224706,
+      "\r\n"
+    ],
+    [
+      0.050286,
+      "Welcome to the Brain Games!\r\n"
+    ],
+    [
+      0.000419,
+      "Answer \"yes\" if the number is even, otherwise answer \"no\".\r\n"
+    ],
+    [
+      0.000114,
+      "\r\n"
+    ],
+    [
+      0.001523,
+      "May I have your name? "
+    ],
+    [
+      1.452451,
+      "S"
+    ],
+    [
+      0.2148,
+      "l"
+    ],
+    [
+      0.297538,
+      "\r\n"
+    ],
+    [
+      0.001556,
+      "Hello, Sl\r\n"
+    ],
+    [
+      6.8e-05,
+      "\r\n"
+    ],
+    [
+      0.000565,
+      "Question: 88\r\n"
+    ],
+    [
+      0.000286,
+      "Your answer: "
+    ],
+    [
+      3.116884,
+      "o"
+    ],
+    [
+      0.839473,
+      "h"
+    ],
+    [
+      0.896071,
+      "y"
+    ],
+    [
+      0.104151,
+      "e"
+    ],
+    [
+      0.230539,
+      "s"
+    ],
+    [
+      0.801053,
+      "\r\n"
+    ],
+    [
+      0.000921,
+      "'ohyes' is wrong answer ;(. Correct answer was 'yes'.\r\n"
+    ],
+    [
+      0.000359,
+      "Let's try again, Sl!\r\n"
+    ],
+    [
+      0.007125,
+      "\u001b]0;admin@fileserver64:~\u0007[admin@fileserver64 ~]$ "
+    ],
+    [
+      2.586561,
+      "e"
+    ],
+    [
+      0.253562,
+      "x"
+    ],
+    [
+      0.13651,
+      "i"
+    ],
+    [
+      0.19153,
+      "t"
+    ],
+    [
+      0.177816,
+      "\r\nexit\r\n"
+    ]
+  ]
+}
