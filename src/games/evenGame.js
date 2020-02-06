@@ -2,7 +2,7 @@ import readlineSync from 'readline-sync';
 
 const isEven = (number) => number % 2 === 0;
 
-const getRules = 'Answer "yes" if the number is even, otherwise answer "no".';
+const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 // Function asks a player if a random number is even.
 // If user answers correct the function returns true, if not - false.
@@ -19,5 +19,5 @@ const gameplay = () => {
 };
 
 export {
-  getRules, gameplay,
+  rules, gameplay,
 };
