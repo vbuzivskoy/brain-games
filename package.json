@@ -1,6 +1,6 @@
 {
   "name": "bvv1-frontend-project-lvl1",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Project \"Brain Games\" at hexlet.",
   "main": "./src/index.js",
   "type": "module",
@@ -31,7 +31,6 @@
     "eslint-plugin-import": "^2.20.1"
   },
   "dependencies": {
-    "@hexlet/pairs": "^1.0.10",
     "readline-sync": "^1.4.10"
   }
 }
