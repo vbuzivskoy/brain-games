@@ -22,3 +22,9 @@
 ### How to play
 
 [![asciicast](https://asciinema.org/a/GMuIqMeNxv6E76vaHvQt06buX.svg)](https://asciinema.org/a/GMuIqMeNxv6E76vaHvQt06buX)
+
+## Game "GCD"
+
+### How to play
+
+[![asciicast](https://asciinema.org/a/Ua8EwbnXU0j79a5aXbJYLBMeu.svg)](https://asciinema.org/a/Ua8EwbnXU0j79a5aXbJYLBMeu)
