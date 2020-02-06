@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
 import { gameplayLoop } from '../src/index.js';
-import * as evenGame from '../src/games/calcGame.js';
+import * as calcGame from '../src/games/calcGame.js';
 
-gameplayLoop(evenGame.gameplay, evenGame.rules);
+gameplayLoop(calcGame.gameplay, calcGame.rules);
