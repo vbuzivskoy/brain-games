@@ -34,3 +34,9 @@
 ### How to play
 
 [![asciicast](https://asciinema.org/a/RE3mtYGf0lfnihxKeYG3FRGMq.svg)](https://asciinema.org/a/RE3mtYGf0lfnihxKeYG3FRGMq)
+
+## Game "Prime number"
+
+### How to play
+
+[![asciicast](https://asciinema.org/a/itYf2HmMQrQcGQqIxemVnTZcE.svg)](https://asciinema.org/a/itYf2HmMQrQcGQqIxemVnTZcE)
