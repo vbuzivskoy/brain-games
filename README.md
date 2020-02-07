@@ -28,3 +28,9 @@
 ### How to play
 
 [![asciicast](https://asciinema.org/a/Ua8EwbnXU0j79a5aXbJYLBMeu.svg)](https://asciinema.org/a/Ua8EwbnXU0j79a5aXbJYLBMeu)
+
+## Game "Progression"
+
+### How to play
+
+[![asciicast](https://asciinema.org/a/RE3mtYGf0lfnihxKeYG3FRGMq.svg)](https://asciinema.org/a/RE3mtYGf0lfnihxKeYG3FRGMq)
