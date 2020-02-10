@@ -1,6 +1,6 @@
 {
   "name": "bvv1-frontend-project-lvl1",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Project \"Brain Games\" at hexlet.",
   "main": "./src/index.js",
   "type": "module",
