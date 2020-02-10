@@ -21,10 +21,12 @@ const calc = (leftArg, rightArg, mathSign) => {
   return result;
 };
 
+const mathSigns = ['+', '-', '*'];
+
 const getQuestionAndAnswer = () => {
   const leftArg = getRandomNumber(1, 15);
   const rightArg = getRandomNumber(1, 15);
-  const mathSign = ['+', '-', '*'][getRandomNumber(0, 2)];
+  const mathSign = mathSigns[getRandomNumber(0, mathSigns.length - 1)];
   const correctAnswer = calc(leftArg, rightArg, mathSign);
   const questionAndAnswer = {
     question: `${leftArg} ${mathSign} ${rightArg}`,
