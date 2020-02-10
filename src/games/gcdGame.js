@@ -9,7 +9,7 @@ const gcd = (a, b) => {
       gcdNumber = i;
     }
   }
-  return String(gcdNumber);
+  return gcdNumber;
 };
 
 const rules = 'Find the greatest common divisor of given numbers.';

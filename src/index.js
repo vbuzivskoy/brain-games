@@ -12,7 +12,7 @@ const gameplayLoop = (gameRules, getQuestionAndAnswer) => {
     const questionAndAnswer = getQuestionAndAnswer();
     const quizQuestion = questionAndAnswer.question;
     console.log(`Question: ${quizQuestion}`);
-    const correctAnswer = questionAndAnswer.answer;
+    const correctAnswer = String(questionAndAnswer.answer);
     const playerAnswer = readlineSync.question('Your answer: ');
     if (playerAnswer === correctAnswer) {
       console.log('Correct!');
