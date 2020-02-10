@@ -1,5 +1,5 @@
-import readlineSync from 'readline-sync';
-import { getRandomNumber } from '../index.js';
+import gameplayLoop from '../index.js';
+import { getRandomNumber } from '../utils.js';
 
 const isPrime = (number) => {
   if (number <= 1) {
@@ -15,18 +15,14 @@ const isPrime = (number) => {
 
 const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const gameplay = () => {
+const getQuestionAndAnswer = () => {
   const number = getRandomNumber(1, 100);
   const correctAnswer = isPrime(number) ? 'yes' : 'no';
-  console.log(`Question: ${number}`);
-  const playerAnswer = readlineSync.question('Your answer: ');
-  const answers = {
-    playerAns: playerAnswer,
-    correctAns: correctAnswer,
+  const questionAndAnswer = {
+    question: number,
+    answer: correctAnswer,
   };
-  return answers;
+  return questionAndAnswer;
 };
 
-export {
-  rules, gameplay,
-};
+export default () => gameplayLoop(rules, getQuestionAndAnswer);

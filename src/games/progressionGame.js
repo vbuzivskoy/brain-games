@@ -1,5 +1,5 @@
-import readlineSync from 'readline-sync';
-import { getRandomNumber } from '../index.js';
+import gameplayLoop from '../index.js';
+import { getRandomNumber } from '../utils.js';
 
 const makeAP = (firstNumber, step) => {
   const maxNumbers = 10;
@@ -12,21 +12,17 @@ const makeAP = (firstNumber, step) => {
 
 const rules = 'What number is missing in the progression?';
 
-const gameplay = () => {
+const getQuestionAndAnswer = () => {
   const firstNumber = getRandomNumber(1, 20);
   const step = getRandomNumber(4, 11);
   const ap = makeAP(firstNumber, step);
   const posOfCorAnsw = 5;
   const correctAnswer = String(ap[posOfCorAnsw]);
-  console.log(`Question: ${ap.slice(0, posOfCorAnsw).join(' ')} .. ${ap.slice(posOfCorAnsw + 1).join(' ')}`);
-  const playerAnswer = readlineSync.question('Your answer: ');
-  const answers = {
-    playerAns: playerAnswer,
-    correctAns: correctAnswer,
+  const questionAndAnswer = {
+    question: `${ap.slice(0, posOfCorAnsw).join(' ')} .. ${ap.slice(posOfCorAnsw + 1).join(' ')}`,
+    answer: correctAnswer,
   };
-  return answers;
+  return questionAndAnswer;
 };
 
-export {
-  rules, gameplay,
-};
+export default () => gameplayLoop(rules, getQuestionAndAnswer);

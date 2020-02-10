@@ -1,47 +1,29 @@
 import readlineSync from 'readline-sync';
+import { sayGreetings, sayHello, askName } from './utils.js';
 
-const sayGreetings = () => {
-  console.log('Welcome to the Brain Games!');
-};
-
-const askName = () => readlineSync.question('May I have your name? ');
-
-const sayHello = (name) => {
-  console.log(`Hello, ${name}\n`);
-};
-
-const getRandomNumber = (lowerNumer, higherNumber) => Math.round(Math.random()
-  * (higherNumber - lowerNumer)) + lowerNumer;
-
-const gameplayLoop = (gameplayFunction, gameRules) => {
+const gameplayLoop = (gameRules, getQuestionAndAnswer) => {
   sayGreetings();
   console.log(`${gameRules}\n`);
   const playerName = askName();
   sayHello(playerName);
 
   const answersToWin = 3;
-  let correctAnswers = 0;
-  let isGameLost = false;
-  while (correctAnswers < answersToWin && !isGameLost) {
-    const answers = gameplayFunction();
-    const playerAnswer = answers.playerAns;
-    const correctAnswer = answers.correctAns;
+  for (let round = 1; round <= answersToWin; round += 1) {
+    const questionAndAnswer = getQuestionAndAnswer();
+    const quizQuestion = questionAndAnswer.question;
+    console.log(`Question: ${quizQuestion}`);
+    const correctAnswer = questionAndAnswer.answer;
+    const playerAnswer = readlineSync.question('Your answer: ');
     if (playerAnswer === correctAnswer) {
-      correctAnswers += 1;
       console.log('Correct!');
     } else {
       console.log(`'${playerAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-      isGameLost = true;
+      console.log(`Let's try again, ${playerName}!`);
+      return;
     }
   }
 
-  if (isGameLost) {
-    console.log(`Let's try again, ${playerName}!`);
-  } else {
-    console.log(`Congratulations, ${playerName}!`);
-  }
+  console.log(`Congratulations, ${playerName}!`);
 };
 
-export {
-  gameplayLoop, sayGreetings, sayHello, askName, getRandomNumber,
-};
+export default gameplayLoop;

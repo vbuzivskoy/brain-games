@@ -1,5 +1,5 @@
-import readlineSync from 'readline-sync';
-import { getRandomNumber } from '../index.js';
+import gameplayLoop from '../index.js';
+import { getRandomNumber } from '../utils.js';
 
 const gcd = (a, b) => {
   const minNumber = Math.min(a, b);
@@ -14,19 +14,15 @@ const gcd = (a, b) => {
 
 const rules = 'Find the greatest common divisor of given numbers.';
 
-const gameplay = () => {
+const getQuestionAndAnswer = () => {
   const firstNumber = getRandomNumber(1, 100);
   const secondNumber = getRandomNumber(1, 100);
   const correctAnswer = gcd(firstNumber, secondNumber);
-  console.log(`Question: ${firstNumber} ${secondNumber}`);
-  const playerAnswer = readlineSync.question('Your answer: ');
-  const answers = {
-    playerAns: playerAnswer,
-    correctAns: correctAnswer,
+  const questionAndAnswer = {
+    question: `${firstNumber} ${secondNumber}`,
+    answer: correctAnswer,
   };
-  return answers;
+  return questionAndAnswer;
 };
 
-export {
-  rules, gameplay,
-};
+export default () => gameplayLoop(rules, getQuestionAndAnswer);

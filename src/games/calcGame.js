@@ -1,5 +1,5 @@
-import readlineSync from 'readline-sync';
-import { getRandomNumber } from '../index.js';
+import gameplayLoop from '../index.js';
+import { getRandomNumber } from '../utils.js';
 
 const rules = 'What is the result of the expression?';
 
@@ -21,20 +21,16 @@ const calc = (leftArg, rightArg, mathSign) => {
   return String(result);
 };
 
-const gameplay = () => {
-  const leftArg = getRandomNumber(1, 25);
-  const rightArg = getRandomNumber(1, 25);
-  const mathSign = ['+', '-', '*'][getRandomNumber(1, 3)];
+const getQuestionAndAnswer = () => {
+  const leftArg = getRandomNumber(1, 15);
+  const rightArg = getRandomNumber(1, 15);
+  const mathSign = ['+', '-', '*'][getRandomNumber(0, 2)];
   const correctAnswer = calc(leftArg, rightArg, mathSign);
-  console.log(`Question: ${leftArg} ${mathSign} ${rightArg}`);
-  const playerAnswer = readlineSync.question('Your answer: ');
-  const answers = {
-    playerAns: playerAnswer,
-    correctAns: correctAnswer,
+  const questionAndAnswer = {
+    question: `${leftArg} ${mathSign} ${rightArg}`,
+    answer: correctAnswer,
   };
-  return answers;
+  return questionAndAnswer;
 };
 
-export {
-  rules, gameplay,
-};
+export default () => gameplayLoop(rules, getQuestionAndAnswer);
