@@ -1,4 +1,5 @@
 import readlineSync from 'readline-sync';
+import { getRandomNumber } from '../index.js';
 
 const rules = 'What is the result of the expression?';
 
@@ -21,9 +22,9 @@ const calc = (leftArg, rightArg, mathSign) => {
 };
 
 const gameplay = () => {
-  const leftArg = Math.floor(Math.random() * 25) + 1;
-  const rightArg = Math.floor(Math.random() * 25) + 1;
-  const mathSign = ['+', '-', '*'][Math.floor(Math.random() * 3)];
+  const leftArg = getRandomNumber(1, 25);
+  const rightArg = getRandomNumber(1, 25);
+  const mathSign = ['+', '-', '*'][getRandomNumber(1, 3)];
   const correctAnswer = calc(leftArg, rightArg, mathSign);
   console.log(`Question: ${leftArg} ${mathSign} ${rightArg}`);
   const playerAnswer = readlineSync.question('Your answer: ');

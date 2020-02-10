@@ -10,6 +10,9 @@ const sayHello = (name) => {
   console.log(`Hello, ${name}\n`);
 };
 
+const getRandomNumber = (lowerNumer, higherNumber) => Math.round(Math.random()
+  * (higherNumber - lowerNumer)) + lowerNumer;
+
 const gameplayLoop = (gameplayFunction, gameRules) => {
   sayGreetings();
   console.log(`${gameRules}\n`);
@@ -40,5 +43,5 @@ const gameplayLoop = (gameplayFunction, gameRules) => {
 };
 
 export {
-  gameplayLoop, sayGreetings, sayHello, askName,
+  gameplayLoop, sayGreetings, sayHello, askName, getRandomNumber,
 };

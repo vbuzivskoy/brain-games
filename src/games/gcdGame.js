@@ -1,4 +1,5 @@
 import readlineSync from 'readline-sync';
+import { getRandomNumber } from '../index.js';
 
 const gcd = (a, b) => {
   const minNumber = Math.min(a, b);
@@ -14,8 +15,8 @@ const gcd = (a, b) => {
 const rules = 'Find the greatest common divisor of given numbers.';
 
 const gameplay = () => {
-  const firstNumber = Math.floor(Math.random() * 100) + 1;
-  const secondNumber = Math.floor(Math.random() * 100) + 1;
+  const firstNumber = getRandomNumber(1, 100);
+  const secondNumber = getRandomNumber(1, 100);
   const correctAnswer = gcd(firstNumber, secondNumber);
   console.log(`Question: ${firstNumber} ${secondNumber}`);
   const playerAnswer = readlineSync.question('Your answer: ');

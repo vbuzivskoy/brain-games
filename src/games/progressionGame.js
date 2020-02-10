@@ -1,4 +1,5 @@
 import readlineSync from 'readline-sync';
+import { getRandomNumber } from '../index.js';
 
 const makeAP = (firstNumber, step) => {
   const maxNumbers = 10;
@@ -12,8 +13,8 @@ const makeAP = (firstNumber, step) => {
 const rules = 'What number is missing in the progression?';
 
 const gameplay = () => {
-  const firstNumber = Math.floor(Math.random() * 20) + 1;
-  const step = Math.floor(Math.random() * 7) + 4;
+  const firstNumber = getRandomNumber(1, 20);
+  const step = getRandomNumber(4, 11);
   const ap = makeAP(firstNumber, step);
   const posOfCorAnsw = 5;
   const correctAnswer = String(ap[posOfCorAnsw]);
