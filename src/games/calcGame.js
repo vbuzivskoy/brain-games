@@ -16,9 +16,9 @@ const calc = (leftArg, rightArg, mathSign) => {
       result = leftArg * rightArg;
       break;
     default:
-      result = NaN;
+      result = null;
   }
-  return String(result);
+  return result;
 };
 
 const getQuestionAndAnswer = () => {
