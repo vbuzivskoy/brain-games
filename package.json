@@ -1,11 +1,10 @@
 {
   "name": "bvv1-frontend-project-lvl1",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "description": "Project \"Brain Games\" at hexlet.",
   "main": "./src/index.js",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
     "brain-calc": "bin/brain-calc.js",
     "brain-gcd": "bin/brain-gcd.js",
