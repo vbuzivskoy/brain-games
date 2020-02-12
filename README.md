@@ -7,11 +7,11 @@
 ## Brain Games
 
 This is a collerction of mini-games that run from console. These games are:
-- Checking parity
-- Calculator
-- Greatest common divisor
-- Progression
-- Prime number
+- [Checking parity](https://github.com/vbuzivskoy/frontend-project-lvl1#game-checking-parity)
+- [Calculator](https://github.com/vbuzivskoy/frontend-project-lvl1#game-calculator)
+- [Greatest common divisor](https://github.com/vbuzivskoy/frontend-project-lvl1#game-greatest-common-divisor)
+- [Progression](https://github.com/vbuzivskoy/frontend-project-lvl1#game-progression)
+- [Prime number](https://github.com/vbuzivskoy/frontend-project-lvl1#game-prime-number)
 
 ## How to install game collection
 
