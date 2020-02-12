@@ -1,7 +1,7 @@
-import gameplayLoop from '../index.js';
-import { getRandomNumber } from '../utils.js';
+import startGame from '../index.js';
+import getRandomNumber from '../utils.js';
 
-const rules = 'What is the result of the expression?';
+const gameDescription = 'What is the result of the expression?';
 
 const calc = (leftArg, rightArg, mathSign) => {
   let result;
@@ -30,9 +30,9 @@ const getQuestionAndAnswer = () => {
   const correctAnswer = calc(leftArg, rightArg, mathSign);
   const questionAndAnswer = {
     question: `${leftArg} ${mathSign} ${rightArg}`,
-    answer: correctAnswer,
+    answer: String(correctAnswer),
   };
   return questionAndAnswer;
 };
 
-export default () => gameplayLoop(rules, getQuestionAndAnswer);
+export default () => startGame(gameDescription, getQuestionAndAnswer);
