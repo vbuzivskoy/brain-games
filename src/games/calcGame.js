@@ -16,7 +16,7 @@ const calc = (leftArg, rightArg, mathSign) => {
       result = leftArg * rightArg;
       break;
     default:
-      result = null;
+      return null;
   }
   return result;
 };
