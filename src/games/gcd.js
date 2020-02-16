@@ -1,7 +1,7 @@
 import startGame from '../index.js';
 import getRandomNumber from '../utils.js';
 
-const gcd = (a, b) => {
+const getGreatestCommonDivisor = (a, b) => {
   const minAgument = Math.min(a, b);
   let currentGCD = 1;
   const maxPossibleGCD = Math.floor(minAgument / 2);
@@ -18,7 +18,7 @@ const gameDescription = 'Find the greatest common divisor of given numbers.';
 const getQuestionAndAnswer = () => {
   const firstNumber = getRandomNumber(1, 100);
   const secondNumber = getRandomNumber(1, 100);
-  const correctAnswer = gcd(firstNumber, secondNumber);
+  const correctAnswer = getGreatestCommonDivisor(firstNumber, secondNumber);
   const questionAndAnswer = {
     question: `${firstNumber} ${secondNumber}`,
     answer: String(correctAnswer),
